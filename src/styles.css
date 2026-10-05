@@ -347,3 +347,6 @@ option{background:var(--ink-2)}
   .section-wrap{padding:80px 6vw}.map-canvas{height:300px}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.brand-type>*:not(:first-child),.brand small{display:block;font-size:8px;letter-spacing:.22em;color:var(--dim);font-weight:600;margin-top:2px}
+.signal-list>*{display:flex;flex-direction:column;gap:6px}.signal-list>* strong{font-size:15px}
+.surface>strong,.surface h3+p{display:block}
