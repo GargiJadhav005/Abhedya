@@ -417,7 +417,7 @@ option{background:var(--ink-2)}
 .mission-cinema::before{top:0}.mission-cinema::after{bottom:0}
 .mission-cinema .hero-video{filter:saturate(.78) contrast(1.08);object-position:65% center}
 .mission-cinema .hero-shade{background:linear-gradient(90deg,var(--film-scrim),transparent 90%),linear-gradient(0deg,var(--film-scrim),transparent 38%);z-index:1}
-.film-grain{position:absolute;inset:0;z-index:2;pointer-events:none;opacity:.07;background-image:repeating-linear-gradient(0deg,transparent 0 2px,var(--on-media) 3px,transparent 4px);background-size:4px 4px}
+.film-grain{position:absolute;inset:0;z-index:2;pointer-events:none;opacity:.018;background-image:repeating-linear-gradient(0deg,transparent 0 2px,var(--on-media) 3px,transparent 4px);background-size:4px 4px}
 .mission-cinema .site-header{padding:48px 5vw 20px;border:0;z-index:4}.mission-cinema .site-header nav{font-size:11px;gap:30px}.mission-cinema .brand-type{font-size:17px}.mission-cinema .header-actions{font-size:11px}
 .mission-cinema .hero-inner{padding:20px 8vw 114px;justify-content:center;gap:0;transition:opacity .6s,transform .6s}
 .mission-cinema .hero-copy{max-width:750px}.mission-cinema .hero-eyebrow{font-size:10px;font-weight:500;color:var(--film-gold);gap:16px}.film-title-rule{width:38px;height:1px;background:var(--film-gold)}
