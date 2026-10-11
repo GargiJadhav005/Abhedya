@@ -186,6 +186,7 @@ select,input{font:inherit;color:inherit}
 .hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,oklch(0.12 0.02 240 / .92),oklch(0.12 0.02 240 / .45) 60%,oklch(0.12 0.02 240 / .2)),linear-gradient(0deg,var(--ink),transparent 35%)}
 .site-header{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:26px 5vw;animation:fade 1s}
 .site-header nav{display:flex;gap:32px;font-size:14px;color:var(--dim)}
+.site-header nav a{font-size:17px;}.header-actions>a:hover{color:var(--text)}
 .site-header nav a:hover,.header-actions>a:hover{color:var(--text)}
 .header-actions{display:flex;gap:20px;align-items:center;font-size:14px}
 .hero-inner{position:relative;z-index:2;flex:1;display:grid;grid-template-columns:1.4fr .8fr;gap:5vw;align-items:center;padding:4vh 5vw}
