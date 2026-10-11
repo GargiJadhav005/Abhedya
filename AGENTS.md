@@ -9,6 +9,6 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 
-- Keep NEXUS demonstration data in one client-side shared state module so role changes preserve the simulated decision flow without a backend.
+- Keep Abhedya demonstration data in one client-side shared state module so role changes preserve the simulated decision flow without a backend.
 - Use distinct TanStack routes for public introduction, demo login, and workspace; the workspace switches operational views locally to preserve context.
 - Keep cinematic media controls and motion in dedicated client-safe components with reduced-motion support; this preserves server rendering and accessible navigation.

@@ -1,8 +1,8 @@
-# Complete Updates Summary — SIH 26251 NEXUS
+# Complete Updates Summary — SIH 26251 Abhedya
 
 ## What Was Done
 
-This document summarizes all changes made to transform the NEXUS demonstration into a clear presentation of the **SIH 26251 Predictive Logistics Decision System** with India-focused mapping.
+This document summarizes all changes made to transform the Abhedya demonstration into a clear presentation of the **SIH 26251 Predictive Logistics Decision System** with India-focused mapping.
 
 ---
 
@@ -24,7 +24,7 @@ This document summarizes all changes made to transform the NEXUS demonstration i
 ### Core Positioning Now Visible
 
 > **"A basic system answers: 'What will we need?'  
-> NEXUS also answers: 'Can we deliver it?', 'What could fail?', 'How will failure propagate?', 'Which location gets limited resources first?', and 'What should we do before the shortage happens?'"**
+> Abhedya also answers: 'Can we deliver it?', 'What could fail?', 'How will failure propagate?', 'Which location gets limited resources first?', and 'What should we do before the shortage happens?'"**
 
 This is **exactly Section 6** from your SIH solution document.
 
@@ -83,7 +83,7 @@ This is **exactly Section 6** from your SIH solution document.
 
 ```
 src/routes/index.tsx          — Landing page content (SIH positioning)
-src/components/nexus/RouteMap.tsx  — Complete Leaflet rewrite (India map)
+src/components/Abhedya/RouteMap.tsx  — Complete Leaflet rewrite (India map)
 src/styles.css                — Leaflet styling (removed MapLibre)
 package.json                  — leaflet + @types/leaflet (removed maplibre-gl)
 ```
@@ -127,7 +127,7 @@ COMPLETE-UPDATES-SUMMARY.md   — This file
 
 ## Key Differentiators Now Communicated
 
-The landing page now clearly explains NEXUS goes beyond basic forecasting:
+The landing page now clearly explains Abhedya goes beyond basic forecasting:
 
 1. ✅ **Supply Assurance Check** — Not just "what do we need?" but "can we deliver it?"
 2. ✅ **Bottleneck Detection** — Identifies constraint: inventory, transport, route, or dependency
@@ -142,7 +142,7 @@ This is the **exact positioning from your SIH 26251 solution document** — now 
 ## What Visitors See Now
 
 ### Landing Page Hero
-> **NEXUS**  
+> **Abhedya**  
 > **PREDICT THE NEED. PREVENT THE SHORTAGE.**  
 >   
 > Network-aware logistics intelligence that forecasts supply needs, checks delivery feasibility, traces disruption impact, and recommends where limited resources should be deployed first.
@@ -206,4 +206,4 @@ You now have:
 ✅ **Backward compatible** with all existing workspace features  
 ✅ **Production-ready build** (all environments successful)
 
-The demonstration now clearly communicates what makes NEXUS different from basic predictive logistics systems — and does so in an India-specific context relevant to the SIH problem statement.
+The demonstration now clearly communicates what makes Abhedya different from basic predictive logistics systems — and does so in an India-specific context relevant to the SIH problem statement.

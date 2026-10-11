@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { Maximize2, Minimize2, Pause, Play } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import opening from '@/assets/nexus-opening.mp4.asset.json';
-import compatibleOpening from '@/assets/nexus-opening.webm.asset.json';
-import mountain from '@/assets/nexus-landscape.jpg';
+import opening from '@/assets/Abhedya-opening.mp4.asset.json';
+import compatibleOpening from '@/assets/Abhedya-opening.webm.asset.json';
+import mountain from '@/assets/Abhedya-landscape.jpg';
 
 export function CinematicVideo() {
   const video = useRef<HTMLVideoElement>(null);
